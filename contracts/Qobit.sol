@@ -94,7 +94,7 @@ contract Qobit is Owned, SafeMath, Pausable, EIP20Interface {
     event Burned(address indexed from, uint256 value);
 
     constructor() public {
-        name = "QOBI Token";
+        name = "Qobit.com Token";
         symbol = "QOBI";
         decimals = 8;
         totalSupply_ = 1500000000 * 10 ** uint256(decimals);
